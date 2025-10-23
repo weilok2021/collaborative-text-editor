@@ -51,8 +51,22 @@ This project works through a **client-server model**:
 ---
 
 ## 🛠️ Getting Started
+You need to have jdk installed on your machine to run this project. 
+For my case, I use **jdk 21**. Then you can compile and run the programs.
 
 ### 1. Compile the files
 ```bash
 javac CollaborativeServer.java
 javac CollaborativeClient.java
+```
+
+### 2. Run the server
+```bash
+java CollaborativeServer
+```
+
+### 3. Run the clients
+```bash
+java CollaborativeClient
+```
+Each client will open a GUI window for editing, you can type random words in one window, and real time changes will also occur in another window!
